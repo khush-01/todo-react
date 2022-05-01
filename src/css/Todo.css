@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .todo {
   text-align: left;
-  width: 37%;
+  width: 60%;
   margin: 0px auto;
   display: flex;
   flex-direction: row;
@@ -9,8 +11,12 @@
 }
 
 .todo__name {
-  font-size: 3.5vmin;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5vmin;
+  font-weight: bold;
   margin: 3px;
+  max-width: 35vw;
+  word-wrap: break-word;
 }
 
 .todo__actions button:hover:not([disabled]) {

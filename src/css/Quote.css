@@ -1,0 +1,15 @@
+.quote {
+  width: 65%;
+  margin: auto;
+}
+
+.quote__text {
+  font-size: 5vmin;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.quote__author {
+  font-size: 3.8vmin;
+  margin: 10px;
+}

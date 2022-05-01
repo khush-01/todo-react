@@ -4,7 +4,7 @@
 
 .app__title {
   color: #282c34;
-  font-size: calc(10px + 7vmin);
+  font-size: calc(15px + 6vmin);
   margin: 10px;
 }
 
@@ -42,14 +42,4 @@
 .app__form--button:hover {
   background-color: #777;
   color: white;
-}
-
-.app__display {
-  color: #282c34;
-  font-size: calc(10px + 3vmin);
-  margin: 10px auto;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 10px;
-  width: 40vw;
 }

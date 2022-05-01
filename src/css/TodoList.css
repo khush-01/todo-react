@@ -1,0 +1,24 @@
+.todolist__display {
+  color: #282c34;
+  font-size: calc(10px + 3vmin);
+  margin: 10px auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 40vw;
+}
+
+.todolist__display--clear {
+  font-size: 4vmin;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 10px;
+  margin: 5px auto 20px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+.todolist__display--clear:hover {
+  background-color: #777;
+  color: white;
+}
