@@ -25,7 +25,6 @@ function TodoList({ todoList, setTodoList }) {
   };
 
   const clearAll = () => {
-    if (!todoList.length) alert("Error \nList is already empty");
     setTodoList([]);
   };
 
@@ -33,9 +32,13 @@ function TodoList({ todoList, setTodoList }) {
     <>
       <div>
         <h2 className="todolist__display">To-Do List</h2>
-        <button className="todolist__display--clear" onClick={clearAll}>
-          Clear All
-        </button>
+        {todoList.length ? (
+          <button className="todolist__display--clear" onClick={clearAll}>
+            Clear All
+          </button>
+        ) : (
+          ""
+        )}
       </div>
       <div>
         {todoList.map((todo, index) => (
